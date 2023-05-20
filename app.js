@@ -13,7 +13,8 @@ var getCMSNewsRouter = require(path.join(path.resolve(),'routes/getCMSNews'));
 
 var app = express();
 
-var port = process.env.PORT || 3000;
+//var port = process.env.PORT || 3000;
+var port = process.env.PORT;
 console.log('PORT: '+port);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
