@@ -4,13 +4,13 @@ var request = require('request');
 var path = require('path');
 
 //Environment and process.env values
-var clientID = process.env.clientID || '3MVG9Kip4IKAZQEURQLxNTxad_Di6MhEhmmrr.wADSgoWUs7g4GMDBB_eUKA54y5vEc_0BVdZgyKqBGl_FaF4';
+var clientID = process.env.clientID || '3MVG9KlmwBKoC7U0z8YSqe5tu1_0ZK.LlcXaL9Od2CjMi6PHWBfzvvkHwmDCWs2RJOwUcp0VH5sPMEtcOR9.9';
 var limit = process.env.limit || "25"; //page size 25
 var environment = process.env.NODE_ENV || 'development';
-var channelID = process.env.channelID || '0ap3h000000LlA6AAK';
+var channelID = process.env.channelID || '0ap1X0000004CQjQAM';
 var envprivateKey;
 var cmsUSER = process.env.cmsUser || 'cmsuser@cms.demo'; //Salesforce CMS Username 
-var instanceURL = process.env.instanceUrl || 'https://login.salesforce.com';
+var instanceURL = process.env.instanceUrl || 'https://test.salesforce.com';
 var contentType = 'cms_image';
 
 if(environment === 'development'){
