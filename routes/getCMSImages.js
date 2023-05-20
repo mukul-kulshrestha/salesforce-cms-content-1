@@ -9,7 +9,7 @@ var limit = process.env.limit || "25"; //page size 25
 var environment = process.env.NODE_ENV || 'development';
 var channelID = process.env.channelID || '0ap1X0000004CQjQAM';
 var envprivateKey;
-var cmsUSER = process.env.cmsUser || 'cmsuser@cms.demo'; //Salesforce CMS Username 
+var cmsUSER = process.env.cmsUser || 'cmsuser@emirates.com'; //Salesforce CMS Username 
 var instanceURL = process.env.instanceUrl || 'https://test.salesforce.com';
 var contentType = 'cms_image';
 
